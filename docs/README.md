@@ -28,7 +28,7 @@ OctoAcme follows an iterative, evidence-driven project management approach built
 
 - **Customer-first** — prioritize customer value and usability.
 - **Iterative delivery** — deliver small, testable increments.
-- **Clear ownership** — each project has a named Project Manager (PM) and Product Lead.
+- **Clear ownership** — each project has a named Project Manager (PM) and Product Manager (PdM).
 - **Data-informed decisions** — measure impact and iterate based on evidence.
 - **Psychological safety** — encourage feedback and learning at every stage.
 
@@ -82,7 +82,7 @@ Key activities:
 - Manage work on the project board (Backlog → Ready → In Progress → In Review → QA → Done).
 - Follow the pull request workflow: small PRs (≤ 400 lines), CI checks, at least one approval before merge.
 - Update the Risk Register weekly.
-- Escalate blockers through the defined path: Team → PM → Product Lead → Sponsor.
+- Escalate blockers through the defined path: Team → PM → PdM → Sponsor.
 
 📄 [Execution & Tracking Guide](octoacme-execution-and-tracking.md)
 📄 [Risk Management & Communication Guide](octoacme-risks-and-communication.md)
@@ -166,9 +166,9 @@ Implements and delivers reliable, tested software components.
 | Cadence | Who | Purpose |
 |---|---|---|
 | Daily standup (15 min) | Delivery team | Progress, blockers, dependencies |
-| Weekly PM ↔ PdM sync | PM + Product Lead | Alignment, risk review, decisions |
+| Weekly PM ↔ PdM sync | PM + PdM | Alignment, risk review, decisions |
 | Weekly delivery sync | All team + stakeholders | Show progress, flag risks |
-| Monthly stakeholder update | PM + broader stakeholders | High-level status and roadmap |
+| Monthly stakeholder update | PM + PdM + broader stakeholders | High-level status and roadmap |
 | Ad-hoc escalations | As needed | Business-impacting issues |
 
 ### Weekly Status Template
@@ -197,7 +197,7 @@ Ask / decisions needed:
 ```
 Team-level triage (daily standup)
   ↓ (unresolved)
-PM escalates to Product Lead + dependent teams
+PM escalates to PdM + dependent teams
   ↓ (business-impacting)
 Sponsor-level escalation
 ```
@@ -239,7 +239,7 @@ OctoAcme teams use structured retrospectives after every sprint, release, or mil
 ## Quick Reference Checklists
 
 ### ✅ Initiation Checklist
-- [ ] One-pager completed and reviewed by Product Lead
+- [ ] One-pager completed and reviewed by PdM
 - [ ] Stakeholder alignment confirmed
 - [ ] Go/no-go decision made
 - [ ] Repo / project board skeleton created
