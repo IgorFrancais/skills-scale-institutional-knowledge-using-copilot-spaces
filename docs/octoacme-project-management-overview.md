@@ -17,8 +17,15 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
+- UX Designer: translates requirements into designs and advocates for usability and accessibility.
+- Data Analyst: instruments metrics, analyzes experiments, and communicates insights.
+- DevOps Engineer: builds and maintains CI/CD pipelines, infrastructure, and observability.
+- Customer Success Manager (CSM): relays customer feedback, supports onboarding, and tracks satisfaction.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+
+> For full role descriptions and interaction patterns, see [OctoAcme Personas](octoacme-roles-and-personas.md).
+> For a summary of responsibilities across ceremonies and artifacts, see the [RACI: Roles & Responsibilities](octoacme-roles-and-responsibilities-raci.md).
 
 ## Key Artifacts
 - Project Charter / One-pager
